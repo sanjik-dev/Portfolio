@@ -93,32 +93,78 @@ a {
     margin-left: -50px;
 }
 
-.liza {
-    width: 355px;
-    margin-left: 599px;
-    height: 26px;
+.text{
     font-size: 48px;
-    font-weight: 700;
+    font-weight: bold;
     font-family: "Poppins", sans-serif;
-    letter-spacing: 0;
-    justify-self: center;
-    align-items: center;
+    text-align: center;
+    margin-top: 20px;
 }
 
-.reze {
-    width: 719px;
-    height: 26;
-    top: 1093px;
-    left: 423px;
-    opacity: 1;
-
-    font-family: Poppins;
-    font-weight: 300;
-    font-style: Regular;
+.paragraf{
     font-size: 32px;
-    line-height: 26px;
-    letter-spacing: 0px;
+    color: #A7A7A7;
     text-align: center;
-    vertical-align: middle;
+    margin-bottom: 80px;
+    font-family: 'Poppins',  sans-serif;
+}
 
+.reze{
+    gap: 104px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.tik{
+    font-size: 28px;
+    color: #A7A7A7;
+    font-weight: 500;
+    font-family: "Poppins";
+}
+.tok{
+    font-size: 18px;
+    font-family: 'Poppins';
+    color: #A7A7A7;
+    font-weight: 300;
+}
+
+.app{
+    font-size: 14px;
+    color: #A7A7A7;
+    padding: 10px 0px;
+    font-family: 'Poppins';
+}
+
+.oyil{
+    width: 375px;
+    background: #363636;
+    border-radius: 20px;
+}
+.oy{
+      padding: 20px;
+}
+.topsa{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.links{
+    font-size: 16px;
+}
+.time{
+    gap: 10px;
+    display: flex;
+    margin: 6px 20px;
+    align-items:center;
+    justify-content: center;
+}
+
+.sss{
+    gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
